@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/usairportlimoservice.com/static/css/main.72b6eb56.chunk.css",
+    "main.js": "/usairportlimoservice.com/static/js/main.05be3490.chunk.js",
+    "main.js.map": "/usairportlimoservice.com/static/js/main.05be3490.chunk.js.map",
+    "runtime-main.js": "/usairportlimoservice.com/static/js/runtime-main.8dbc4b7f.js",
+    "runtime-main.js.map": "/usairportlimoservice.com/static/js/runtime-main.8dbc4b7f.js.map",
+    "static/js/2.04b479ea.chunk.js": "/usairportlimoservice.com/static/js/2.04b479ea.chunk.js",
+    "static/js/2.04b479ea.chunk.js.map": "/usairportlimoservice.com/static/js/2.04b479ea.chunk.js.map",
+    "static/js/3.fbafe2f0.chunk.js": "/usairportlimoservice.com/static/js/3.fbafe2f0.chunk.js",
+    "static/js/3.fbafe2f0.chunk.js.map": "/usairportlimoservice.com/static/js/3.fbafe2f0.chunk.js.map",
+    "index.html": "/usairportlimoservice.com/index.html",
+    "static/css/main.72b6eb56.chunk.css.map": "/usairportlimoservice.com/static/css/main.72b6eb56.chunk.css.map",
+    "static/js/2.04b479ea.chunk.js.LICENSE.txt": "/usairportlimoservice.com/static/js/2.04b479ea.chunk.js.LICENSE.txt",
+    "static/media/logo.9a276c8a.svg": "/usairportlimoservice.com/static/media/logo.9a276c8a.svg",
+    "static/media/slide-1.f911b9aa.jpg": "/usairportlimoservice.com/static/media/slide-1.f911b9aa.jpg",
+    "static/media/slide-2.0ca2962c.jpg": "/usairportlimoservice.com/static/media/slide-2.0ca2962c.jpg",
+    "static/media/slide-3.a506ea14.jpg": "/usairportlimoservice.com/static/media/slide-3.a506ea14.jpg",
+    "static/media/slide-4.7903d6b3.jpg": "/usairportlimoservice.com/static/media/slide-4.7903d6b3.jpg",
+    "static/media/slide-5.debc702d.jpg": "/usairportlimoservice.com/static/media/slide-5.debc702d.jpg",
+    "static/media/slide-6.cda00866.jpg": "/usairportlimoservice.com/static/media/slide-6.cda00866.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8dbc4b7f.js",
+    "static/js/2.04b479ea.chunk.js",
+    "static/css/main.72b6eb56.chunk.css",
+    "static/js/main.05be3490.chunk.js"
+  ]
+}
