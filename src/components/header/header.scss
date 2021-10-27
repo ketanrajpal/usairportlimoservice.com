@@ -1,0 +1,68 @@
+#HeaderComponent {
+  background-color: #ff8400;
+  header {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+    div.logo {
+      padding: 0 2rem;
+      display: grid;
+      align-content: center;
+      img {
+        box-sizing: border-box;
+        width: 15rem;
+      }
+    }
+    nav {
+      display: grid;
+      grid-template-columns: repeat(7, auto);
+      align-items: center;
+      a {
+        height: 100%;
+        svg {
+          font-size: 1.5rem;
+          display: block;
+          margin: auto;
+        }
+        &:first-child {
+          grid-row: 1 / span 2;
+          display: grid;
+          align-items: center;
+          text-align: center;
+        }
+        &:last-child {
+          grid-column: 7;
+          grid-row: 1 / span 2;
+          align-items: center;
+          text-align: center;
+          line-height: 1.5rem;
+          svg {
+            margin-bottom: 0.5rem;
+          }
+        }
+        box-sizing: border-box;
+        border-left: 1px dotted #fdb913;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2rem;
+        display: block;
+        padding: 1rem 2rem;
+        cursor: pointer;
+        font-weight: 500;
+        display: inline-block;
+        &:nth-child(7),
+        &:nth-child(8),
+        &:nth-child(9),
+        &:nth-child(10),
+        &:nth-child(11) {
+          border-top: 1px dotted #fdb913;
+        }
+        &:hover {
+          color: #000;
+          background-color: #fdb913;
+        }
+      }
+    }
+  }
+}

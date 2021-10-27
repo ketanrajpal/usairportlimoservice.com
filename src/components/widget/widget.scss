@@ -1,0 +1,26 @@
+#WidgetComponent {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  div {
+    padding: 4rem 3rem;
+    &:nth-child(2) {
+      background-color: #f5f5f5;
+    }
+    svg {
+      font-size: 3rem;
+      color: rgba(0, 0, 0, 0.2);
+    }
+    h3 {
+      color: #ff8400;
+      font-size: 2rem;
+      font-weight: 300;
+      margin: 3rem 0 1rem 0;
+    }
+    p {
+      font-size: 0.9rem;
+      line-height: 1.5rem;
+    }
+  }
+}
