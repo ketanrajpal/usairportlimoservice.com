@@ -26,15 +26,17 @@ export const WidgetComponent = () => {
 
   return (
     <div id="WidgetComponent">
-      {Widget.map((item, index) => {
-        return (
-          <div key={index}>
-            <i className={item.icon}></i>
-            <h3>{item.name}</h3>
-            <p>{item.description}</p>
-          </div>
-        );
-      })}
+      <div>
+        {Widget.map((item, index) => {
+          return (
+            <article key={index}>
+              <i className={item.icon}></i>
+              <h3>{item.name}</h3>
+              <p>{item.description}</p>
+            </article>
+          );
+        })}
+      </div>
     </div>
   );
 };

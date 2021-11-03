@@ -1,17 +1,24 @@
+@import "../../scss/app.scss";
+
 #HeaderComponent {
-  background-color: #ff8400;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: map-get($color, 0);
+  z-index: 99;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   header {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr auto;
-
     div.logo {
       padding: 0 2rem;
       display: grid;
       align-content: center;
       img {
         box-sizing: border-box;
-        width: 15rem;
+        width: 12rem;
       }
     }
     nav {
@@ -20,34 +27,31 @@
       align-items: center;
       a {
         height: 100%;
+        &:first-child {
+          svg {
+            margin: auto !important;
+          }
+        }
         svg {
-          font-size: 1.5rem;
-          display: block;
+          font-size: 1.1rem;
+          display: inline-block;
           margin: auto;
+          margin-right: 1rem;
         }
         &:first-child {
           grid-row: 1 / span 2;
           display: grid;
           align-items: center;
           text-align: center;
-        }
-        &:last-child {
-          grid-column: 7;
-          grid-row: 1 / span 2;
-          align-items: center;
-          text-align: center;
-          line-height: 1.5rem;
-          svg {
-            margin-bottom: 0.5rem;
-          }
+          padding: 0 2.5rem;
         }
         box-sizing: border-box;
-        border-left: 1px dotted #fdb913;
+        border-left: 1px dotted map-get($color, 1);
         color: #fff;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1rem;
         display: block;
-        padding: 1rem 2rem;
+        padding: 0.8rem 1.6rem;
         cursor: pointer;
         font-weight: 500;
         display: inline-block;
@@ -55,12 +59,19 @@
         &:nth-child(8),
         &:nth-child(9),
         &:nth-child(10),
-        &:nth-child(11) {
-          border-top: 1px dotted #fdb913;
+        &:nth-child(11),
+        &:nth-child(12),
+        &:nth-child(13) {
+          border-top: 1px dotted map-get($color, 1);
+        }
+        &:last-child {
+          background-color: map-get($color, 1);
+          &:hover {
+            background-color: #000000;
+          }
         }
         &:hover {
-          color: #000;
-          background-color: #fdb913;
+          background-color: map-get($color, 1);
         }
       }
     }

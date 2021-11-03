@@ -12,3 +12,13 @@ html {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+a,
+svg {
+  transition: all 500ms ease;
+}
+
+$color: (
+  0: #ed1c24,
+  1: #ad0d12,
+);

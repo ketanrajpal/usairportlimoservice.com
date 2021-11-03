@@ -1,26 +1,39 @@
+@import "../../scss/app.scss";
+
 #WidgetComponent {
-  width: 90%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  background-color: #f5f5f5;
+  padding: 4rem 0;
   div {
-    padding: 4rem 3rem;
-    &:nth-child(2) {
-      background-color: #f5f5f5;
-    }
-    svg {
-      font-size: 3rem;
-      color: rgba(0, 0, 0, 0.2);
-    }
-    h3 {
-      color: #ff8400;
-      font-size: 2rem;
-      font-weight: 300;
-      margin: 3rem 0 1rem 0;
-    }
-    p {
-      font-size: 0.9rem;
-      line-height: 1.5rem;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    article {
+      padding: 0 3rem;
+      border-right: 1px solid #ccc;
+      &:last-child {
+        border-right: none;
+      }
+      svg {
+        font-size: 3rem;
+        color: rgba(0, 0, 0, 0.2);
+      }
+      h3 {
+        color: map-get($color, 0);
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 3rem 0 1rem 0;
+      }
+      p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
     }
   }
 }
